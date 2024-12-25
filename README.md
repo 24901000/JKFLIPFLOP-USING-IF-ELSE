@@ -1,4 +1,10 @@
 # JKFLIPFLOP-USING-IF-ELSE
+NAME  : B.BARKAVI
+
+REFERNCE NO : 24901000
+
+EXPERIMENT NO : 7  JKFLIPFLOP USING IF ELSE
+
 
 **AIM:** 
 
@@ -9,6 +15,30 @@ To implement  JK flipflop using verilog and validating their functionality using
 Quartus prime
 
 **THEORY**
+
+
+A JK flip-flop is a versatile and widely used sequential logic circuit that combines the functionalities of SR (Set-Reset) flip-flops while resolving their invalid states. It has two inputs, labeled J and K, along with a clock input, a current state output (Q), and its complement output (Q'). The next state of the JK flip-flop is determined by the values of J and K inputs, the clock signal, and the current state.
+
+Clock Dependency
+The JK flip-flop transitions between states only on the active edge of the clock signal (rising or falling edge). This ensures synchronization and sequential operation in digital circuits.
+
+Applications
+
+Counters: Used to implement binary and frequency counters.
+
+Memory Storage: Forms the basic building block of memory and shift registers.
+
+Frequency Division: Divides input clock frequencies by toggling states.
+
+By utilizing the above logic with an if-else structure, the JK flip-flop's functionality can be easily implemented in both theoretical and practical digital design scenarios.
+
+
+
+
+
+
+
+
 
 **JK Flip-Flop**
 
@@ -34,15 +64,30 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+ write all the steps invloved 
+
+ 1. Set Inputs: Configure switches for J and K inputs.
+ 2. Run Simulation: Simulate circuit to see output on LEDs.
+ 3. Check Truth Table: Verify output with JK Flip Flop truth table.
+ 4. Analyze Results: Analyze results, take screenshots, and generate report.
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+Program for flipflops and verify its truth table in quartus using Verilog programming.
+
+![Screenshot (83)](https://github.com/user-attachments/assets/72f2c490-b683-4ea6-81b1-f2b03fb0048d)
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![Screenshot (84)](https://github.com/user-attachments/assets/84b77e9e-f120-4c98-ae21-fd5569aa7999)
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![Screenshot (87)](https://github.com/user-attachments/assets/32e51fc3-3007-48e2-b267-2682de798714)
+
+
 **RESULTS**
+
+The JK Flip-Flop implemented in Verilog successfully validates its functionalityaccording to its truth table.
