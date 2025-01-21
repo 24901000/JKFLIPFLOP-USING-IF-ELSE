@@ -85,8 +85,8 @@ Program for flipflops and verify its truth table in quartus using Verilog progra
 
 
 **RTL LOGIC FOR FLIPFLOPS**
-![rtl](https://github.com/user-attachments/assets/0afd23af-f926-415f-8dd9-4aa345b01466)
 
+![Screenshot (164)](https://github.com/user-attachments/assets/8555e94f-ab50-4f6e-a709-f105a51317fd)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
